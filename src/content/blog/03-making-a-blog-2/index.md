@@ -126,3 +126,24 @@ It's practically free, ships on a blazing fast edge network, and has the git and
 Vercel came in second, but I had no need for any of the extra features it offered over Cloudflare Pages.
 To me, it seems like Cloudflare Pages is built especially for static websites, and you rarely run into issues when you fit the
 target demographic perfectly.
+
+## Blast off
+
+Getting the site deployed on Cloudflare pages could probably have not been any easier:
+
+1. Connected Cloudflare to my GitHub account and gave it permissions on my website repository
+2. Initialized a new Cloudflare Pages project for the repository
+3. Configured the presets to `astro` and clicked deploy
+4. Profit???
+
+Even better, since Cloudflare already manages all of my domains (RIP Google Domains), getting it setup was as simple as selecting
+the configure button, entering in my domain, and clicking OK to update DNS records.
+A short bit later and the website is up and running, with SSL already handled for me.
+Thanks Cloudflare!
+
+## Fin
+
+For what was perhaps no more than two hours of actual work (not counting research), I went from nothing to a custom portfolio
+website being hosted on a blazing fast CDN.
+Due to the git integration, deployments are as trivial as pushing a new commit to the default branch.
+Overall, I am very satisfied where I've landed, and I look forward to seeing how easy things are to maintain.
